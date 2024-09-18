@@ -48,19 +48,19 @@ import java.awt.*;
             gbc.gridheight = 1;
             userPanel.add(doctorNameLabel, gbc);
 
-            // Especialidad del doctor
+      
             JLabel doctorSpecialtyLabel = new JLabel("Cardiología");
             gbc.gridx = 1;
             gbc.gridy = 1;
             userPanel.add(doctorSpecialtyLabel, gbc);
 
-            // Añadir userPanel al lado derecho del headerPanel
+
             headerPanel.add(userPanel, BorderLayout.EAST);
 
-            // Añadir el headerPanel a la ventana principal
+
             add(headerPanel, BorderLayout.NORTH);
 
-            // Hacer visible la ventana
+
             setVisible(true);
         }
 
