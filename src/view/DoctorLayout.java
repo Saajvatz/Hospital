@@ -1,9 +1,10 @@
 //
 // Source code recreated from a .class file by IntelliJ IDEA
 // (powered by FernFlower decompiler)
-//
-
 package view;
+
+
+import model.Paciente;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -87,4 +88,6 @@ class DoctorLayout extends JFrame {
         });
         return op;
     }
+
+    Paciente paciente = new Paciente();
 }
