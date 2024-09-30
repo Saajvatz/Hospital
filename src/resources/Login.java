@@ -1,3 +1,5 @@
+package resources;
+
 import javax.swing.*;
 import java.awt.Color;
 
@@ -38,7 +40,7 @@ public class Login extends JFrame {
         contraseña.setBounds(100, 380, 350, 40);
         panel2.add(contraseña);
 
-        JButton boton = new JButton("Login");
+        JButton boton = new JButton("resources.Login");
         boton.setBounds(100, 440, 120, 40);
         panel2.add(boton);
 
