@@ -72,11 +72,11 @@ class DoctorLayout extends JFrame {
         GridBagConstraints gbc = new GridBagConstraints();
         gbc.fill = 2;
         gbc.gridx = 0;
-        menu.add(this.op("Opcion 1"), gbc);
-        menu.add(this.op("Opcion 2"), gbc);
-        menu.add(this.op("Opcion 3"), gbc);
-        menu.add(this.op("Opcion 4"), gbc);
-        menu.add(this.op("Opcion 5"), gbc);
+        menu.add(this.op("Consultas del día"), gbc);
+        menu.add(this.op("Salas"), gbc);
+        menu.add(this.op("Farmacia"), gbc);
+        menu.add(this.op("Pacientes registrados"), gbc);
+        menu.add(this.op("Cita en otra area"), gbc);
         menuPanel.add(menu);
         return menuPanel;
     }

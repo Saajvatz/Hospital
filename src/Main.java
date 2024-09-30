@@ -11,7 +11,7 @@ import view.BackEnde;
 import view.LoginnView;
 import view.SalaView;
 import view.SecretariaView;
-import view.DoctorLayout;
+
 
 
 public class Main {
@@ -26,7 +26,7 @@ public class Main {
         //MODEL
         DoctorGeneral m1 = new DoctorGeneral();
         Enfermera m2 = new Enfermera();
-        DoctorLayout m3 = new D
+
         SalaDeCirujia n4 = new SalaDeCirujia();
         SalaDeEmergencia m5 = new SalaDeEmergencia();
 
